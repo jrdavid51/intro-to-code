@@ -1,0 +1,52 @@
+.primary-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.primary-nav ul li a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    color: #d5bb25;
+    background: #061956;
+}
+
+nav {
+    flex: 1;
+}
+
+nav ul a:hover {
+    color: #F3D9B5;
+}
+
+.active {
+    text-decoration: underline wavy #daad0b;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 50px;
+    /* text transform: uppercase; */
+    font-family: "brushberry-script", sans-serif;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 32px;
+    /* text transform: uppercase; */
+    font-family: "brushberry-script", sans-serif;
+}
+
+model-viewer {
+    width: 500px;
+    height: 500px;
+}
